@@ -262,4 +262,3 @@ Pour les questions sur l'hébergement ou les domaines, contactez directement vot
 
 Créé avec ❤️ pour la communauté judo réunionnaise
 2025
-# judo-club-des-avirons

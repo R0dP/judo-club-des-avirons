@@ -1,0 +1,172 @@
+🤖 ROBOTS.TXT & LOGO - GUIDE COMPLET
+====================================
+
+Votre site a été mis à jour avec :
+1. ✅ Le vrai logo du club
+2. ✅ Un fichier robots.txt pour éviter l'indexation
+
+================================================================================
+🤖 QU'EST-CE QUE ROBOTS.TXT ?
+================================================================================
+
+robots.txt est un fichier texte qui dit aux moteurs de recherche (Google, Bing, etc.)
+comment traiter votre site.
+
+FONCTION :
+- Empêcher l'indexation (ne pas apparaître dans Google)
+- Bloquer les robots
+- Protéger les parties sensibles du site
+
+NOTRE CAS :
+- Nous avons configuré robots.txt pour BLOQUER TOUS les robots
+- Cela empêche Google/Bing de référencer votre site de test
+
+================================================================================
+📍 OÙ PLACER LE FICHIER ROBOTS.TXT
+================================================================================
+
+Votre structure doit être :
+
+📁 judo-club-des-avirons/
+├── 📄 robots.txt          ← À la RACINE (même niveau que index.html)
+├── 📄 index.html
+├── 📄 club.html
+├── ... autres pages
+├── 📁 css/
+│   └── 📄 style.css
+└── 📁 images/
+    └── 📄 logo-jca.png
+
+================================================================================
+✅ CONTENU DU ROBOTS.TXT
+================================================================================
+
+User-agent: *
+Disallow: /
+
+Cela signifie :
+- User-agent: * = "Pour TOUS les robots"
+- Disallow: / = "Interdisez l'accès à tout le site"
+
+RÉSULTAT :
+✓ Google ne référencera PAS votre site
+✓ Bing ne l'indexera PAS
+✓ Les autres moteurs l'ignoreront
+✓ Mais les gens peuvent TOUJOURS accéder au lien direct
+
+================================================================================
+🎨 LE LOGO DU CLUB
+================================================================================
+
+MISE À JOUR :
+✅ Le logo a été intégré dans tous les fichiers HTML
+✅ Il remplace l'emoji 🥋 par votre vrai logo
+✅ Le logo s'affiche en haut à gauche de chaque page
+
+STRUCTURE DES FICHIERS :
+- Logo sauvegardé en : images/logo-jca.png
+- Dimension : 60px de hauteur (adapté automatiquement)
+- Format : PNG avec fond transparent
+
+SI VOUS VOULEZ CHANGER LE LOGO :
+1. Remplacez le fichier images/logo-jca.png par votre nouveau logo
+2. Le site se met à jour automatiquement (si vous modifiez sur GitHub)
+
+================================================================================
+🔍 VÉRIFIER QUE ROBOTS.TXT FONCTIONNE
+================================================================================
+
+Pour vérifier que robots.txt est bien en place :
+
+1. Allez sur votre site : https://r0dp.github.io/judo-club-des-avirons/
+2. Ajoutez "/robots.txt" à la fin : https://r0dp.github.io/judo-club-des-avirons/robots.txt
+3. Vous devriez voir :
+   
+   User-agent: *
+   Disallow: /
+
+✅ Si vous voyez ça, robots.txt fonctionne !
+
+================================================================================
+⚙️ COMMENT UPLOADER ROBOTS.TXT SUR GITHUB
+================================================================================
+
+OPTION A : Via l'interface GitHub (SIMPLE)
+──────────────────────────────────
+
+1. Allez sur votre dépôt GitHub
+2. Cliquez "Add file" → "Create new file"
+3. Nommez-le : robots.txt
+4. Collez ce contenu :
+
+   User-agent: *
+   Disallow: /
+
+5. Cliquez "Commit new file"
+6. ✅ robots.txt est maintenant sur GitHub !
+
+OPTION B : Avec Git (si vous faites ça localement)
+───────────────────────────────────────────────
+
+1. Placez robots.txt dans votre dossier du site
+2. Ouvrez le terminal
+3. Tapez :
+   
+   git add robots.txt
+   git commit -m "Add robots.txt to prevent indexation"
+   git push
+
+4. ✅ robots.txt est uploadé !
+
+================================================================================
+🎯 QUAND PASSER À UN VRAI DOMAINE
+================================================================================
+
+MAINTENANT (site de test) :
+- robots.txt bloque l'indexation
+- Le site n'apparaît PAS dans Google
+- Seul le lien direct fonctionne
+- C'est parfait pour le test
+
+QUAND VOUS SEREZ PRÊTS (lancement final) :
+- Supprimez robots.txt
+- Créez un sitemap.xml (optionnel)
+- Soumettez le site à Google Search Console
+- Votre site apparaîtra dans Google
+
+================================================================================
+📊 VOTRE SITE ET GOOGLE
+================================================================================
+
+ACTUELLEMENT :
+✓ robots.txt empêche l'indexation
+✓ Le site est INACCESSIBLE aux robots de Google
+✓ Seuls les liens directs fonctionnent
+✓ Parfait pour un test privé
+
+SI VOUS SUPPRIMEZ ROBOTS.TXT :
+✓ Google commencera à indexer le site
+✓ Il apparaîtra dans les résultats de recherche
+✓ Les gens pourront le trouver via Google
+✓ À faire SEULEMENT quand vous êtes prêts à publier
+
+================================================================================
+✨ CHECKLIST FINAL
+================================================================================
+
+✅ Logo intégré dans tous les fichiers
+✅ robots.txt créé et empêchant l'indexation
+✅ Site prêt pour le test (pas d'apparition dans Google)
+✅ Lien partageable avec les responsables du club
+✅ Tout est prêt pour GitHub Pages
+
+================================================================================
+🎊 VOTRE SITE EST PRÊT POUR LE TEST ! 🎊
+
+Le logo s'affiche
+robots.txt empêche l'indexation
+Le site est sécurisé (pas visible sur Google)
+
+Partagez le lien aux responsables ! 🥋
+
+================================================================================

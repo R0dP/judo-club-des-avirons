@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Ce site est une version de test/démo
+# Il n'est pas destiné à être référencé dans les moteurs de recherche

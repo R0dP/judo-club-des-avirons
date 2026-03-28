@@ -1,0 +1,196 @@
+🔗 LIENS DIRECTS & CHECKLIST DÉPLOIEMENT
+========================================
+
+================================================================================
+🔗 LIENS IMPORTANTS À BOOKMARKER
+================================================================================
+
+GitHub (pour créer votre compte) :
+👉 https://github.com
+
+Page de création de dépôt :
+👉 https://github.com/new
+
+Documentation GitHub Pages (si besoin d'aide) :
+👉 https://docs.github.com/en/pages
+
+================================================================================
+✅ CHECKLIST ÉTAPE PAR ÉTAPE
+================================================================================
+
+AVANT DE COMMENCER :
+☐ Vous avez téléchargé tous vos fichiers du site
+☐ Les fichiers sont bien organisés (HTML + dossier css/)
+☐ Vous avez une connexion internet
+☐ Vous avez un email pour créer le compte
+
+ÉTAPE 1 - CRÉER ACCOUNT GITHUB :
+☐ Allez sur https://github.com
+☐ Cliquez "Sign up"
+☐ Complétez le formulaire avec :
+  ☐ Email valide
+  ☐ Mot de passe fort
+  ☐ Nom d'utilisateur (ex: votrenom-reunion)
+☐ Vérifiez votre email
+☐ Connectez-vous
+
+ÉTAPE 2 - CRÉER UN DÉPÔT :
+☐ Cliquez le "+" en haut à droite
+☐ Sélectionnez "New repository"
+☐ Remplissez les champs :
+  ☐ Repository name : "judo-club-des-avirons"
+  ☐ Description : "Site web du Judo Club des Avirons"
+  ☐ Visibility : "Public" (IMPORTANT!)
+☐ Cliquez "Create repository"
+
+ÉTAPE 3 - UPLOADER LES FICHIERS :
+☐ Cliquez "Add file" → "Upload files"
+☐ Uploadez tous ces fichiers :
+  ☐ index.html
+  ☐ club.html
+  ☐ equipe.html
+  ☐ horaires.html
+  ☐ tarifs.html
+  ☐ histoire.html
+  ☐ actualites.html
+  ☐ contact.html
+  ☐ css/ (dossier entier avec style.css)
+☐ Cliquez "Commit changes"
+
+ÉTAPE 4 - ACTIVER GITHUB PAGES :
+☐ Cliquez "Settings" dans votre dépôt
+☐ Cherchez "Pages" à gauche
+☐ Sélectionnez "main" comme branch
+☐ Sélectionnez "/ (root)" comme dossier
+☐ Cliquez "Save"
+☐ ATTENDEZ 1-2 MINUTES
+
+ÉTAPE 5 - TESTER :
+☐ Cherchez le lien généré (format: https://votreusername.github.io/judo-club-des-avirons/)
+☐ Cliquez le lien
+☐ Vérifiez que le site s'affiche correctement
+☐ Testez quelques pages
+☐ Testez sur mobile (F12)
+
+ÉTAPE 6 - PARTAGER :
+☐ Copiez votre lien GitHub Pages
+☐ Envoyez-le aux responsables du club
+☐ Demandez leurs retours
+☐ Notez les améliorations demandées
+
+================================================================================
+📧 EXEMPLE D'EMAIL À ENVOYER AUX RESPONSABLES
+================================================================================
+
+Sujet : Nouveau site web - Judo Club des Avirons - Test
+
+───────────────────────────────────────────────────────────
+
+Bonjour [Nom du responsable],
+
+J'ai créé le nouveau site web du Judo Club des Avirons.
+
+Je vous invite à le découvrir et à me donner vos retours :
+
+🔗 LIEN DU SITE :
+https://votreusername.github.io/judo-club-des-avirons/
+
+POINTS À VÉRIFIER :
+✓ Design et mise en page
+✓ Organisation des informations
+✓ Clarté des horaires et tarifs
+✓ Accessibilité sur mobile
+✓ Toute suggestion d'amélioration
+
+Vous pouvez :
+- Explorer les différentes pages
+- Tester les liens
+- Consulter les infos sur les entraîneurs
+- Vérifier la section contact
+
+Vos commentaires sont précieux pour l'amélioration du site.
+
+N'hésitez pas à me contacter si vous avez des questions.
+
+Cordialement,
+[Votre nom]
+
+───────────────────────────────────────────────────────────
+
+================================================================================
+🎯 APRÈS LE TEST - PROCHAINES ÉTAPES
+================================================================================
+
+Une fois que les responsables ont vu le site :
+
+1. COLLECTEZ LES RETOURS
+   - Quels changements demandent-ils ?
+   - Y a-t-il des problèmes ?
+   - Quelles améliorations ?
+
+2. MODIFIEZ LE SITE
+   - Mettez à jour les fichiers
+   - Uploadez les modifications sur GitHub
+   - Le site se met à jour automatiquement
+
+3. DÉCIDEZ DU FUTUR
+   - Garder GitHub Pages (gratuit, permanent) ✅
+   - Passer à un vrai domaine (ex: judoclubavirons.re) - 5-15€/an
+   - Ajouter un logo et des images réelles
+
+================================================================================
+💡 CONSEILS & ASTUCES
+================================================================================
+
+✅ Utilisez un lien court pour partager :
+   Allez sur https://bitly.com ou tinyurl.com
+   Entrez votre long lien GitHub
+   Obtenez un lien plus court à partager
+
+✅ Testez sur plusieurs appareils :
+   Desktop, tablette, smartphone
+   Différents navigateurs (Chrome, Firefox, Safari)
+
+✅ Garde une copie locale :
+   Conservez les fichiers sur votre ordinateur
+   Vous pouvez les modifier quand vous voulez
+
+✅ Documentez les changements :
+   Notez quoi a été modifié et quand
+   Utile pour l'historique
+
+================================================================================
+🚨 EN CAS DE PROBLÈME
+================================================================================
+
+Le site ne s'affiche pas :
+1. Attendez 3-5 minutes après l'activation
+2. Rafraîchissez la page (Ctrl+F5)
+3. Vérifiez que le dépôt est PUBLIC
+4. Vérifiez que "index.html" est dans le dépôt
+
+Les CSS ne se chargent pas :
+1. Vérifiez que le dossier "css/" existe
+2. Vérifiez que "style.css" est dedans
+3. Vérifiez les noms exacts (majuscules/minuscules)
+4. Rafraîchissez la page (Ctrl+F5)
+
+GitHub Pages n'apparaît pas dans Settings :
+1. Assurez-vous que le dépôt est PUBLIC
+2. Scrollez dans Settings pour trouver "Pages"
+3. Attendez un peu, il peut y avoir un délai
+
+Vous avez besoin d'aide ?
+- Relisez ce guide
+- Consultez https://docs.github.com/en/pages
+- Contactez-moi !
+
+================================================================================
+✨ FÉLICITATIONS ! VOTRE SITE EST EN LIGNE ! ✨
+
+Le site du Judo Club des Avirons est maintenant accessible
+à tous les responsables du club gratuitement et facilement.
+
+Partagez, testez, améliorez, et profitez ! 🥋
+
+================================================================================
