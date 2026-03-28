@@ -1,0 +1,186 @@
+🥋 CHANGEMENTS DE DESIGN - STYLE KODOKAN
+========================================
+
+Votre site web a été entièrement redesigné en s'inspirant du style épuré et minimaliste 
+du Kodokan (kdkjd.org).
+
+================================================================================
+🎨 CARACTÉRISTIQUES DU NOUVEAU DESIGN
+================================================================================
+
+STYLE VISUAL :
+✓ Minimaliste et épuré (comme le Kodokan)
+✓ Palette de couleurs : noir, blanc, gris + bleu accent
+✓ Beaucoup d'espace blanc (respiration visuelle)
+✓ Typographie élégante et claire
+✓ Pas de dégradés ni effets voyants
+✓ Bordures fines et subtiles
+✓ Design professionnel et respectueux
+
+COULEURS :
+- Noir primaire (#000000) pour le texte et les éléments clés
+- Blanc (#ffffff) pour le fond
+- Gris clair (#f5f5f5) pour les sections secondaires
+- Bleu accent (#0066cc) pour les liens et éléments importants
+- Gris moyen (#333333) pour le footer
+
+TYPOGRAPHIE :
+- Police système moderne (-apple-system, Segoe UI, etc.)
+- Poids : 400 (régulier), 600 (semi-bold), 700 (bold)
+- Espacement de lettres subtil
+- Taille adaptée pour lisibilité optimale
+
+ESPACEMENTS :
+- Marges généreuses entre les sections (5rem)
+- Espace blanc dans les cards et boîtes
+- Padding cohérent et élégant
+
+================================================================================
+🖼️ ÉLÉMENTS DE DESIGN
+================================================================================
+
+EN-TÊTE :
+- Logo en noir avec sous-titre gris
+- Navigation simple et lisible
+- Ligne de séparation discrète
+- Sticky (reste en haut en scrollant)
+
+SECTIONS :
+- Fonds alternant blanc et très léger gris
+- Bordures fines entre les sections
+- Titles centrés et épurés
+
+CARTES :
+- Fond blanc avec bordure fine
+- Ombre subtile au survol
+- Animation douce (translateY)
+- Padding généreux
+
+BOUTONS :
+- Noir par défaut
+- Bleu pour actions secondaires
+- Texte blanc
+- Coins légers (border-radius: 2px)
+
+LIENS :
+- Bleu par défaut
+- Soulignement animé au survol
+- Cohérent avec le Kodokan
+
+================================================================================
+📱 RESPONSIVE & MOBILE
+================================================================================
+
+✓ Fonctionne parfaitement sur tous les appareils
+✓ Navigation optimisée pour mobile
+✓ Textes lisibles sur petits écrans
+✓ Images redimensionnées automatiquement
+✓ Espacement adapté sur phone
+
+================================================================================
+🔄 AVANTAGES DU NOUVEAU DESIGN
+================================================================================
+
+✅ PROFESSIONNEL
+   - Ressemble à un site majeur (comme le Kodokan)
+   - Transmet confiance et légitimité
+
+✅ LISIBLE
+   - Beaucoup d'espace blanc = moins fatiguant
+   - Typographie claire et moderne
+
+✅ RAPIDE
+   - Pas d'effet lourd
+   - Chargement et affichage rapides
+
+✅ INTEMPOREL
+   - Style classique qui vieillit bien
+   - Pas de tendances éphémères
+
+✅ ADAPTABLE
+   - Facile de changer les couleurs si besoin
+   - Structure claire et modulaire
+
+================================================================================
+🎯 SI VOUS VOULEZ CHANGER LA COULEUR D'ACCENT
+================================================================================
+
+Actuellement : Bleu (#0066cc)
+
+Pour changer, édifiez dans css/style.css :
+
+--accent-blue: #0066cc;  ← Remplacez cette valeur
+
+Exemples :
+- Or classique      : #d4a574
+- Bleu marine       : #003d82
+- Vert foncé        : #2d5016
+- Bordeaux          : #8b2e2e
+
+Tous les éléments bleus changeront automatiquement !
+
+================================================================================
+✨ ÉLÉMENTS DISTINCTIFS DU KODOKAN
+================================================================================
+
+Voici ce que nous avons repris du style Kodokan :
+
+1. LOGO ÉPURÉ
+   - Minimaliste et mémorable
+   - Noir et blanc uniquement
+
+2. NAVIGATION SIMPLE
+   - Menu horizontal clair
+   - Pas d'icônes inutiles
+   - Liens simples et directs
+
+3. ESPACE BLANC
+   - Respiration visuelle importante
+   - Rien de "cramé"
+   - Sections bien séparées
+
+4. TYPOGRAPHIE HIÉRARCHISÉE
+   - Titres grands et clairs
+   - Texte de corps lisible
+   - Sous-titres discrets
+
+5. PALETTE MINIMALISTE
+   - Noir et blanc principalement
+   - Une couleur d'accent (bleu)
+   - Rien de plus
+
+6. CONTENU EN PREMIER PLAN
+   - Les articles/infos prennent la place centrale
+   - Pas de distractions
+   - Design servant le contenu
+
+7. ANIMATIONS SUBTILES
+   - Survol des cartes
+   - Transitions douces
+   - Rien de "flashy"
+
+================================================================================
+🧪 COMMENT TESTER LE DESIGN
+================================================================================
+
+1. OUVREZ index.html dans votre navigateur
+2. NAVIGUEZ entre les pages pour voir la cohérence
+3. TESTEZ SUR MOBILE (F12 puis vue mobile)
+4. SURVOLEZ les éléments pour voir les animations
+5. SCROLLEZ pour voir le header sticky
+
+================================================================================
+💡 PROCHAINES ÉTAPES
+================================================================================
+
+✓ Le design est maintenant épuré et professionnel
+✓ Intégrez vos images pour compléter le look
+✓ Personnalisez la couleur d'accent si souhaité
+✓ Ajoutez votre contenu et actualités
+
+================================================================================
+
+🥋 LE NOUVEAU DESIGN EST PRÊT À IMPRESSIONNER ! 🥋
+
+Créé en s'inspirant du Kodokan - l'institution judo la plus prestigieuse au monde
+2025
