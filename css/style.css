@@ -689,48 +689,484 @@ footer {
     .price-box.highlighted {
         transform: scale(1);
     }
+
+    .grid.auto {
+        grid-template-columns: 1fr;
+    }
 }
 
-@media (max-width: 480px) {
+/* TABLETTES ET PETITS ÉCRANS */
+@media (max-width: 640px) {
+    header {
+        padding: 1.5rem 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .logo img {
+        height: 50px !important;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .nav-menu a:last-child {
+        border-bottom: none;
+    }
+
     .hero {
         padding: 3rem 0;
     }
 
     .hero h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
     }
 
     .hero .subtitle {
-        font-size: 1rem;
+        font-size: 1.05rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-info {
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+
+    .hero-info p {
+        font-size: 0.95rem;
+        margin: 0.6rem 0;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         margin-bottom: 2rem;
     }
 
     h3 {
         font-size: 1.3rem;
+        margin-top: 1.5rem;
     }
 
-    .nav-menu {
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-
-    .grid {
-        gap: 2rem;
-    }
-
-    .grid.four {
-        grid-template-columns: 1fr;
+    h4 {
+        font-size: 1.1rem;
     }
 
     section {
-        padding: 2rem 0;
+        padding: 2.5rem 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .grid {
+        gap: 1.5rem;
+    }
+
+    .grid.three,
+    .grid.four,
+    .grid.auto {
+        grid-template-columns: 1fr;
     }
 
     .card {
         padding: 1.5rem;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+    }
+
+    .team-member {
+        padding: 1.5rem;
+    }
+
+    .member-avatar {
+        width: 100px;
+        height: 100px;
+        font-size: 2rem;
+    }
+
+    .member-name {
+        font-size: 1.1rem;
+    }
+
+    .image-large {
+        height: 280px;
+        margin: 1.5rem 0;
+    }
+
+    .image-medium {
+        height: 200px;
+    }
+
+    .image-small {
+        height: 120px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 0.9rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .schedule-table {
+        font-size: 0.85rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.75rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer-section h4 {
+        margin-bottom: 1rem;
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+    .price-box {
+        padding: 1.5rem;
+    }
+
+    .price-details li {
+        padding: 0.4rem 0;
+        font-size: 0.9rem;
+    }
+
+    .blog-post {
+        margin-bottom: 1.5rem;
+    }
+
+    .post-image {
+        height: 180px;
+    }
+
+    .post-content {
+        padding: 1.5rem;
+    }
+
+    .post-title {
+        font-size: 1.2rem;
+    }
+
+    .info-box {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+}
+
+/* PETITS MOBILES */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    header {
+        padding: 1rem 0;
+    }
+
+    nav {
+        gap: 0.8rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .logo img {
+        height: 45px !important;
+    }
+
+    .nav-menu {
+        gap: 0.3rem;
+    }
+
+    .nav-menu a {
+        font-size: 0.85rem;
+        padding: 0.6rem 0;
+    }
+
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero h1 {
+        font-size: 1.6rem;
+        letter-spacing: 0px;
+        margin-bottom: 0.6rem;
+    }
+
+    .hero .subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .hero-info {
+        padding: 1.2rem 1rem;
+        border-left: 3px solid var(--accent-blue);
+    }
+
+    .hero-info p {
+        font-size: 0.9rem;
+        margin: 0.5rem 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    section {
+        padding: 1.5rem 0;
+        border-bottom: none;
+    }
+
+    section + section {
+        margin-top: 1rem;
+    }
+
+    .card {
+        padding: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .card h3 {
+        margin-top: 0;
+    }
+
+    .grid {
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .grid.three,
+    .grid.four,
+    .grid.auto {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .member-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 1.8rem;
+        margin: 0 auto 1rem;
+    }
+
+    .member-name {
+        font-size: 1rem;
+    }
+
+    .member-rank {
+        font-size: 0.85rem;
+    }
+
+    .member-role {
+        font-size: 0.8rem;
+    }
+
+    .image-large {
+        height: 240px;
+        margin: 1rem 0;
+    }
+
+    .image-medium {
+        height: 170px;
+        margin: 1rem 0;
+    }
+
+    .image-small {
+        height: 100px;
+    }
+
+    .btn {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.85rem;
+        margin: 0.5rem auto;
+    }
+
+    .schedule-table {
+        font-size: 0.75rem;
+        margin: 1rem 0;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.5rem;
+    }
+
+    .schedule-table thead {
+        display: none;
+    }
+
+    .schedule-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid var(--border-color);
+        padding: 1rem;
+    }
+
+    .schedule-table td {
+        display: block;
+        border: none;
+        padding: 0.5rem 0;
+        text-align: left;
+    }
+
+    .schedule-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        margin-right: 0.5rem;
+        display: inline-block;
+        width: 80px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-section h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-section a,
+    .footer-section p {
+        font-size: 0.85rem;
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .feature h4 {
+        font-size: 1rem;
+    }
+
+    .features {
+        gap: 1.5rem;
+    }
+
+    .price {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
+
+    .price-period {
+        font-size: 0.85rem;
+    }
+
+    .price-box {
+        padding: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .price-box h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .price-details {
+        margin: 1rem 0;
+    }
+
+    .price-details li {
+        padding: 0.4rem 0;
+        font-size: 0.85rem;
+    }
+
+    .blog-post {
+        margin-bottom: 1rem;
+    }
+
+    .post-image {
+        height: 150px;
+    }
+
+    .post-content {
+        padding: 1.2rem;
+    }
+
+    .post-date {
+        font-size: 0.75rem;
+    }
+
+    .post-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .post-excerpt {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .read-more {
+        font-size: 0.85rem;
+    }
+
+    .info-box {
+        padding: 1.2rem 1rem;
+        margin: 1.2rem 0;
+        border-left: 3px solid var(--accent-blue);
+    }
+
+    .info-box strong {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .text-center {
+        text-align: center;
     }
 }
